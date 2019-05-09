@@ -39,7 +39,7 @@ body {
   header
 */
 header {
-  margin: 5px 10px 0 10px;
+  margin: 10px 10px 0 10px;
   display: flex;
   /* flex-flow: row nowrap; */
   /* justify-content: center; */
@@ -98,6 +98,7 @@ nav ul {
   padding: 0;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
+  margin: 5px 0 0 0;
 }
 
 nav ul > * {
@@ -115,4 +116,12 @@ nav ul > * {
 }
 
 
+.top-ad {
+ padding: 0 2px;
+  position: relative
+}
+
+.test {
+  position: absolute
+}
 
