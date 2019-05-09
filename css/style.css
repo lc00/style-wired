@@ -1,0 +1,118 @@
+/*
+  layout
+  - padding-all-side-sm
+  - padding-all-side-md
+  - padding-all-aide-lg
+
+
+
+  - margin-all-side-sm
+  - margin-all-side-md
+  - margin-all-side-lg
+
+*/
+
+
+
+/* text fonts
+ - title
+ - category
+ - attention
+*/
+
+
+/*
+  color
+  - blue
+*/
+.blue {
+  color: blue
+}
+
+@import "custom-fonts.css";
+
+body {
+  margin: 0;
+}
+
+/*
+  header
+*/
+header {
+  margin: 5px 10px 0 10px;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  /* justify-content: center; */
+  /* align-items: center */
+}
+
+header div:nth-child(2) {
+  font: anothernightout;
+  font-size: 30px;
+}
+
+header div:nth-child(2) span:nth-child(odd) {
+  background: black;
+  color: white;
+}
+
+header div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div:first-child span {
+  margin-right: auto;
+}
+header div:last-child div{
+  display: flex;
+  flex: 0 1 auto;
+  /* justify-content: flex-end; */
+  margin-left: auto
+}
+
+header div:last-child {
+  font-size: 10px;
+}
+
+header div:last-child > span {
+  padding: 0 10px
+
+}
+
+header div:last-child > span:first-child {
+  border-right: 1px solid grey
+  
+}
+
+
+
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  /* justify-content: space-evenly; */
+  padding: 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+nav ul > * {
+  flex: 1;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* border-top: 1px solid grey; */
+  /* border-bottom: 1px solid grey; */
+  border-right: 1px solid grey;
+  font-size: 10px;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+
+
