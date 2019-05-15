@@ -149,7 +149,9 @@ main section {
 
 main section > * {
   margin: 0 10px 10px 0;
-  border: 1px solid grey;
+  border-left: 1px solid #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
 }
 
 main section > div > * {
