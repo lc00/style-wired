@@ -1,0 +1,32 @@
+
+.horizontal-med-img-top {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 15px 15px 0;
+  border-top: 4px solid black;
+}
+
+.horizontal-med-img-top > span {
+  padding: 15px;
+}
+
+.horizontal-med-img-top div {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 15px 15px 15px;
+}
+
+.horizontal-med-img-top div span:first-child {
+  font-size: 15px;
+  color: grey;
+}
+
+.horizontal-med-img-top div span:nth-child {
+  font-size: 25px;
+}
+
+.horizontal-med-img-top div span:last-child {
+  font-size: 15px;
+  color: grey;
+}
+

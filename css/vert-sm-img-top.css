@@ -1,0 +1,33 @@
+
+.vert-sm-img-top {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 15px 15px 0;
+  border-top: 4px solid black;
+
+}
+
+.vert-sm-img-top > span {
+  padding: 15px;
+
+}
+
+.vert-sm-img-top div {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 15px 15px 15px;
+}
+
+.vert-sm-img-top div span:first-child {
+  font-size: 15px;
+  color: grey;
+}
+
+.vert-sm-img-top div span:nth-child(2) {
+  font-size: 25px;
+}
+
+.vert-sm-img-top div span:last-child {
+  font-size: 15px;
+  color: grey;
+}

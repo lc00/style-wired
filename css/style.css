@@ -20,6 +20,10 @@
  - attention
 */
 
+@import "horiz-sm-img-top.css";
+@import "horiz-sm-img-left.css";
+@import "vert-sm-img-top.css";
+@import "custom-fonts.css";
 
 /*
   color
@@ -29,7 +33,6 @@
   color: blue
 }
 
-@import "custom-fonts.css";
 
 body {
   margin: 0;
@@ -115,7 +118,8 @@ nav ul > * {
   align-items: center;
 }
 
-
+/*this is not working 
+*/
 .top-ad {
  padding: 0 2px;
   position: relative
@@ -124,4 +128,57 @@ nav ul > * {
 .test {
   position: absolute
 }
+
+
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content:center;
+}
+
+main section {
+  display: flex;
+  align-items: top;
+}
+
+main section > * {
+  margin: 0 10px 10px 0;
+  border: 1px solid grey;
+}
+
+main section > div > * {
+  padding: 15px;
+}
+
+.story-layout {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/*
+  different size of stories
+    horizontal-sm
+    horizontal-med-img-top
+    horizontal-lg
+
+    vertical-sm
+    vertical-med
+    vertical-lg
+*/
+
+.flex-column {
+  display: flex;
+  flex-flow: column nowrap
+}
+
+
+
+
+
 
