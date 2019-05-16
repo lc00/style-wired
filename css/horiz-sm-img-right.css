@@ -1,0 +1,30 @@
+.horiz-sm-img-right {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  margin: 0 15px 15px 0;
+  border-top: 4px solid black;
+}
+
+.horiz-sm-img-right > span {
+  padding: 15px;
+}
+
+.horiz-sm-img-right div {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15px 0 15px 15px;
+}
+
+.horiz-sm-img-right div span:first-child {
+  font-size: 15px;
+  color: grey;
+}
+
+.horiz-sm-img-right div span:nth-child(2) {
+  font-size: 20px;
+}
+
+.horiz-sm-img-right div span:last-child {
+  font-size: 10px;
+  color: grey;
+}

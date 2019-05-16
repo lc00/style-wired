@@ -1,0 +1,18 @@
+.vert-md-img-none {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.vert-md-img-none > span:first-child {
+  color: grey;
+  font-size: 30px;
+}
+
+.vert-md-img-none > span:nth-child(2) {
+  font-size: 30px;
+}
+
+.vert-md-img-none >span:last-child {
+  color: grey;
+  font-size: 15px
+}

@@ -22,7 +22,10 @@
 
 @import "horiz-sm-img-top.css";
 @import "horiz-sm-img-left.css";
+@import "horiz-sm-img-right.css";
+
 @import "vert-sm-img-top.css";
+@import "vert-md-img-none.css";
 @import "custom-fonts.css";
 
 /*
@@ -142,10 +145,10 @@ main {
   justify-content:center;
 }
 
-main section {
+/* main section {
   display: flex;
   align-items: top;
-}
+} */
 
 main section > * {
   margin: 0 10px 10px 0;
@@ -153,15 +156,11 @@ main section > * {
   border-right: 1px solid #F5F5F5;
   border-bottom: 2px solid #F5F5F5;
 }
-
+/* 
 main section > div > * {
   padding: 15px;
-}
+} */
 
-.story-layout {
-  display: flex;
-  flex-flow: column nowrap;
-}
 
 /*
   different size of stories
@@ -180,7 +179,15 @@ main section > div > * {
 }
 
 
+.layout-horiz {
+  display: flex;
+  flex-flow: row nowrap;
+}
 
+.layout-vert {
+  display: flex;
+  flex-flow: column nowrap;
+}
 
 
 
