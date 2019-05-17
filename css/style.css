@@ -28,6 +28,10 @@
 @import "vert-md-img-none.css";
 @import "custom-fonts.css";
 
+@import 'card.css';
+@import 'sizes.css';
+@import 'layout.css';
+
 /*
   color
   - blue
@@ -179,15 +183,10 @@ main section > div > * {
 }
 
 
-.layout-horiz {
-  display: flex;
-  flex-flow: row nowrap;
-}
 
-.layout-vert {
-  display: flex;
-  flex-flow: column nowrap;
-}
+/* most popular
+*/
 
 
-
+/*
+*/

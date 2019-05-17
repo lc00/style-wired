@@ -1,0 +1,25 @@
+
+.layout-horiz {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.layout-vert {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+
+.layout-img-right {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+
+.layout-img-left {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.layout-top-padding {
+  padding-top: 15px;
+}
