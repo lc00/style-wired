@@ -2,7 +2,7 @@
 .card {
   display: flex;
   flex-flow: column nowrap;
-  margin: 15px;
+  /* margin: 15px; */
   border-top: 4px solid black;
 
 }
@@ -14,7 +14,10 @@
 .card div {
   display: flex;
   flex-flow: column nowrap;
-  padding: 0 15px 15px 15px;
+  /* padding-left: 15px; */
+  padding-right: 15px;
+  padding-bottom: 15px;
+  /* padding: 0 15px 15px 15px; */
 }
 
 .card-category, .card-author {

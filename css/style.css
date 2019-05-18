@@ -141,11 +141,11 @@ nav ul > * {
   justify-content: center;
 }
 
-main {
+/* main {
   display: flex;
   flex-flow: column nowrap;
   justify-content:center;
-}
+} */
 
 /* main section {
   display: flex;
