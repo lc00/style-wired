@@ -21,6 +21,7 @@
 */
 
 @import 'card.css';
+@import 'cards.css';
 @import 'layout.css';
 @import 'size.css'
 /*
@@ -158,33 +159,8 @@ main section > * {
   border-right: 1px solid #F5F5F5;
   border-bottom: 2px solid #F5F5F5;
 }
-/* 
-main section > div > * {
-  padding: 15px;
-} */
 
-
-/*
-  different size of stories
-    horizontal-sm
-    horizontal-med-img-top
-    horizontal-lg
-
-    vertical-sm
-    vertical-med
-    vertical-lg
-*/
-
-.flex-column {
-  display: flex;
-  flex-flow: column nowrap
+.border-top-4 {
+  border-top: 4px solid black;
 }
 
-
-
-/* most popular
-*/
-
-
-/*
-*/
