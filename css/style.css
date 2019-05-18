@@ -22,7 +22,7 @@
 
 @import 'card.css';
 @import 'layout.css';
-
+@import 'size.css'
 /*
   color
   - blue
@@ -123,8 +123,15 @@ nav ul > * {
   position: relative
 }
 
-.test {
-  position: absolute
+.positioning-play{
+  position: absolute;
+  top: 420px;
+  left: 30px;
+}
+.positioning-speaker {
+  position: absolute;
+  top: 420px;
+  right: 30px;
 }
 
 
