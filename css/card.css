@@ -7,13 +7,11 @@
 
 }
 
-.card-img {
+.card img{
   padding: 15px;
 }
 
-
-
-.card-layout {
+.card div {
   display: flex;
   flex-flow: column nowrap;
   padding: 0 15px 15px 15px;
@@ -27,5 +25,4 @@
 .card-title {
   font-size: 25px;
 }
-
 

@@ -9,7 +9,6 @@
   flex-flow: column nowrap;
 }
 
-
 .layout-img-right {
   display: flex;
   flex-flow: row-reverse nowrap;

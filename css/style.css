@@ -20,16 +20,7 @@
  - attention
 */
 
-@import "horiz-sm-img-top.css";
-@import "horiz-sm-img-left.css";
-@import "horiz-sm-img-right.css";
-
-@import "vert-sm-img-top.css";
-@import "vert-md-img-none.css";
-@import "custom-fonts.css";
-
 @import 'card.css';
-@import 'sizes.css';
 @import 'layout.css';
 
 /*
