@@ -23,7 +23,8 @@
 @import 'card.css';
 @import 'cards.css';
 @import 'layout.css';
-@import 'size.css'
+@import 'size.css';
+
 /*
   color
   - blue
@@ -117,8 +118,6 @@ nav ul > * {
   align-items: center;
 }
 
-/*this is not working 
-*/
 .top-ad {
  padding: 0 2px;
   position: relative
