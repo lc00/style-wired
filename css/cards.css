@@ -1,0 +1,51 @@
+.cards {
+  border-top: solid 6px black;
+  border-left: solid 1px #C0C0C0;
+  border-right: solid 1px #C0C0C0;
+  border-bottom: solid 1px #C0C0C0
+
+}
+
+.cards > div:nth-child(2) > div{
+  padding-bottom: 15px;
+  border-bottom:  solid 1px #C0C0C0;
+  margin: 15px;
+
+}
+
+.cards > div:nth-child(2) {
+  border-top: solid 1px #C0C0C0;
+  border-bottom: solid 1px #C0C0C0
+
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
+}
+
+
+.cards-card {
+  display: flex;
+  flex-flow: column nowrap;
+  /* margin: 15px; */
+
+}
+
+.cards-card img {
+  padding-right: 15px;
+}
+
+.cards-card div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.cards-card-category, .cards-card-author {
+  font-size: 15px;
+  color: grey;
+}
+
+.cards-card-title {
+  font-size: 25px;
+}
+

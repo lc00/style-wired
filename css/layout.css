@@ -23,9 +23,9 @@
   padding-top: 15px;
 }
 
-/* .layout-down-padding {
-  padding-down: 15px;
-} */
+.layout-bottom-padding {
+  padding-bottom: 15px;
+}
 
 .layout-left-padding {
   padding-left: 15px;

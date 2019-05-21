@@ -155,9 +155,9 @@ nav ul > * {
 
 main section > * {
   margin: 0 10px 10px 0;
-  border-left: 1px solid #F5F5F5;
-  border-right: 1px solid #F5F5F5;
-  border-bottom: 2px solid #F5F5F5;
+  border-left: 1px solid #C0C0C0;
+  border-right: 1px solid #C0C0C0;
+  border-bottom: 2px solid #C0C0C0;
 }
 
 .border-top-4 {
