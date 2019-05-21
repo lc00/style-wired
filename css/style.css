@@ -1,42 +1,7 @@
-/*
-  layout
-  - padding-all-side-sm
-  - padding-all-side-md
-  - padding-all-aide-lg
-
-
-
-  - margin-all-side-sm
-  - margin-all-side-md
-  - margin-all-side-lg
-
-*/
-
-
-
-/* text fonts
- - title
- - category
- - attention
-*/
-
 @import 'card.css';
 @import 'cards.css';
 @import 'layout.css';
 @import 'size.css';
-
-/*
-  color
-  - blue
-*/
-.blue {
-  color: blue
-}
-
-
-body {
-  margin: 0;
-}
 
 /*
   header
@@ -44,9 +9,6 @@ body {
 header {
   margin: 10px 10px 0 10px;
   display: flex;
-  /* flex-flow: row nowrap; */
-  /* justify-content: center; */
-  /* align-items: center */
 }
 
 header div:nth-child(2) {
@@ -90,9 +52,9 @@ header div:last-child > span:first-child {
   
 }
 
-
-
-
+/*
+  nav
+*/
 nav ul {
   display: flex;
   flex-flow: row nowrap;
@@ -118,6 +80,9 @@ nav ul > * {
   align-items: center;
 }
 
+/* 
+  top-ad
+*/
 .top-ad {
  padding: 0 2px;
   position: relative
@@ -135,22 +100,17 @@ nav ul > * {
 }
 
 
+/*
+  others
+*/
+body {
+  margin: 0;
+}
 
 .content {
   display: flex;
   justify-content: center;
 }
-
-/* main {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content:center;
-} */
-
-/* main section {
-  display: flex;
-  align-items: top;
-} */
 
 main section > * {
   margin: 0 10px 10px 0;
